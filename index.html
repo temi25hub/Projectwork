@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tree Kitchen</title>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="The Tree Kitchen Logo">
+        </div>
+
+        <h1 class="site-title">THE TREE KITCHEN</h1>
+
+        <nav class="nav">
+            <a href="#">HEM</a>
+            <a href="#">OM OSS</a>
+            <a href="#">KONTAKT</a>
+            <button class="order-btn">BESTÄLL</button>
+        </nav>
+    </header>
+
+
+
+    <section class="slider">
+        <div class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="img/puffpuff.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="img/peppersoup.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="img/friedplantain.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="img/suya.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="img/Jollof.jpg" alt=""></li>
+                    <li class="splide__slide"><img src="img/Egusi.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        new Splide('.splide', {
+            type: 'loop',
+            speed: 600,
+            autoplay: true,
+        }).mount();
+    </script>
+
+
+    
+    <aside class="side-panel">
+
+        <section class="menu card">
+            <h2>MATMENY</h2>
+            <ul>
+                <li><a href="#">Jollof rice</a></li>
+                <li><a href="#">Fried rice</a></li>
+                <li><a href="#">Egusi soup</a></li>
+                <li><a href="#">Fufu/Pounded yam</a></li>
+                <li><a href="#">Peppersoup</a></li>
+                <li><a href="#">Plantain</a></li>
+                <li><a href="#">Fruity zobo drink</a></li>
+            </ul>
+        </section>
+
+        <section class="Hours_mission card">
+            <h2>ÖPPETTIDER</h2>
+            <ul>
+                <li>Måndagar - 11:00-20:00</li>
+                <li>Tisdagar - 11:00-20:00</li>
+                <li>Onsdagar - 11:00-20:00</li>
+                <li>Torsdagar - Stängt</li>
+                <li>Fredagar - 11:00-23:00</li>
+                <li>Lördagar - 11:00-23:00</li>
+                <li>Söndagar - 12:00-19:00</li>
+            </ul>
+
+            <h2>UPPDRAGSBESKRIVNING</h2>
+            <p>
+                Vårt uppdrag är att lyfta det nigerianska köket genom att leverera exceptionell kvalitet, förfinade smaker och förstklassig service. Vi är dedikerade till att visa rikedomarna i vår kultur genom en elegant och minnesvärd matupplevelse.
+            </p>
+            </section>
+
+    </aside>
+
+
+    <section class="best-seller-title">
+        <h3>Våra Bästsäljare</h3>
+    </section>
+
+    <section class="food-row">
+
+        <article class="food-item card">
+            <img src="img/combo1.jpg" alt="">
+            <p>En portion jollof ris combo- 200kr</p>
+            <a href="#" class="order-btn">BESTÄLL</a>
+        </article>
+
+        <article class="food-item card">
+            <img src="img/suya2.jpg" alt="">
+            <p>En portion suya (5 skewers) - 150kr</p>
+            <a href="#" class="order-btn">BESTÄLL</a>
+        </article>
+
+        <article class="food-item card">
+            <img src="img/puffpuffpack.jpg" alt="">
+            <p>One pack of puffpuff (10 pcs) – 100kr</p>
+            <a href="#" class="order-btn">BESTÄLL</a>
+        </article>
+
+    </section>
+
+
+
+    <footer class="footer">
+        <section>
+            <h4>MENY</h4>
+            <ul>
+                <li><a href="#">HEM</a></li>
+                <li><a href="#">KONTAKT</a></li>
+                <li><a href="#">OM OSS</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h4>BESÖK OOS PÅ</h4>
+            <address>
+                THE TREE KITCHEN <br>
+                Bergvägen 64 <br>
+                567 34 Nyköping <br>
+                thetreekitchen@gmail.com
+            </address>
+        </section>
+
+        <section>
+            <h4>FÖLJA OSS</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </section>
+    </footer>
+
+</div>
+
+</body>
+</html>
